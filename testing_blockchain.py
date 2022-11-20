@@ -9,7 +9,6 @@ JeChain = Blockchain()
 JeChain.addBlock(Block(str(int(time())), ({"from": "John", "to": "Bob", "amount": 100})))
 JeChain.addBlock(Block(str(int(time())), ({"from": "Bob", "to": "John", "amount": 200})))
 JeChain.addBlock(Block(str(int(time())), ({"from": "Ken", "to": "John", "amount": 200})))
-# (Это - всего лишь интересный эксперимент, для создания настоящей криптовалюты обычно нужно сделать намного больше, чем сделали мы).
 
 # Вывод обновлённого блокчейна
 print(JeChain)
